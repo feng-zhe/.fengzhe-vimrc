@@ -13,6 +13,7 @@ filetype plugin indent on
 "indent
 set autoindent
 set smartindent
+set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -34,9 +35,11 @@ Plugin 'VundleVim/Vundle.vim'
 
 " General
 " original repos on github
-"Plugin 'easymotion/vim-easymotion'  
 Plugin 'scrooloose/nerdcommenter'
-" Plugin 'Valloric/YouCompleteMe'
+Plugin 'godlygeek/tabular'
+Plugin 'scrooloose/nerdtree'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'easymotion/vim-easymotion'  
 " vim-scripts repos  
 "Plugin 'L9'  
 "Plugin 'FuzzyFinder'  
@@ -45,16 +48,14 @@ Plugin 'scrooloose/nerdcommenter'
 
 " For nodejs
 "Plugin 'vim-scripts/Emmet.vim'
-Plugin 'jelera/vim-javascript-syntax'
-Plugin 'godlygeek/tabular'
+"Plugin 'jelera/vim-javascript-syntax'
 Plugin 'maksimr/vim-jsbeautify'
-Plugin 'ahayman/vim-nodejs-complete'
-Plugin 'scrooloose/nerdtree'
+"Plugin 'ahayman/vim-nodejs-complete'
 
 filetype plugin indent on     " required!
 
 " for youcompleteme
-let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+"let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 
 " the command of Vundle
 " Brief help  
@@ -65,4 +66,4 @@ let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 "     
 " see :h vundle for more details or wiki for FAQ   
 " NOTE: comments after Plugin command are not allowed.
-
+ 
