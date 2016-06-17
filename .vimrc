@@ -13,10 +13,13 @@ filetype plugin indent on
 "indent
 set autoindent
 set smartindent
-set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set expandtab
+
+" nerdtree size
+let g:NERDTreeWinSize=45
 
 " fix an issue on mac
 set backspace=2
