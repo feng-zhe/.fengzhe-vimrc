@@ -24,10 +24,6 @@ let g:NERDTreeWinSize=45
 " fix an issue on mac
 set backspace=2
 
-" key maps
-map <c-f> :call JsBeautify()<cr>
-map <C-n> :NERDTreeToggle<CR>
-
 " VUNDLE
 filetype off                   " required for vundle
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -53,6 +49,7 @@ Plugin 'scrooloose/nerdtree'
 "Plugin 'vim-scripts/Emmet.vim'
 "Plugin 'jelera/vim-javascript-syntax'
 Plugin 'maksimr/vim-jsbeautify'
+Plugin 'groenewege/vim-less'
 "Plugin 'ahayman/vim-nodejs-complete'
 
 filetype plugin indent on     " required!
@@ -70,3 +67,6 @@ filetype plugin indent on     " required!
 " see :h vundle for more details or wiki for FAQ   
 " NOTE: comments after Plugin command are not allowed.
  
+" key maps
+map <c-f> :call JsxBeautify()<cr>
+map <C-n> :NERDTreeToggle<CR>
