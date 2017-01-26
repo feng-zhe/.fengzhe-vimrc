@@ -1,3 +1,4 @@
+set encoding=utf-8
 " not compatible to vi
 set nocompatible
 
@@ -37,6 +38,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'godlygeek/tabular'
 Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-surround'
 "Plugin 'Valloric/YouCompleteMe'
 "Plugin 'easymotion/vim-easymotion'  
 " vim-scripts repos  
