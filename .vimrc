@@ -13,7 +13,7 @@ filetype plugin indent on
 
 "indent
 set autoindent
-set smartindent
+"set smartindent
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -39,6 +39,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'godlygeek/tabular'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-surround'
+Plugin 'godlygeek/tabular'
 "Plugin 'Valloric/YouCompleteMe'
 "Plugin 'easymotion/vim-easymotion'  
 " vim-scripts repos  
