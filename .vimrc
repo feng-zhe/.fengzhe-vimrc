@@ -13,7 +13,7 @@ filetype plugin indent on
 
 "indent
 set autoindent
-"set smartindent
+"set smartindent " because of python comment issue
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
