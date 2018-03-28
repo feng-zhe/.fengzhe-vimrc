@@ -36,7 +36,6 @@ Plugin 'VundleVim/Vundle.vim'
 " General
 " original repos on github
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'godlygeek/tabular'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-surround'
 Plugin 'godlygeek/tabular'
