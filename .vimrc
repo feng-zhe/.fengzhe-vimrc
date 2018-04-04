@@ -54,6 +54,9 @@ Plugin 'maksimr/vim-jsbeautify'
 Plugin 'groenewege/vim-less'
 "Plugin 'ahayman/vim-nodejs-complete'
 
+" For latex
+Plugin 'lervag/vimtex'
+
 filetype plugin indent on     " required!
 
 " for youcompleteme
