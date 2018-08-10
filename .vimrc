@@ -1,3 +1,4 @@
+colorscheme desert
 set encoding=utf-8
 " not compatible to vi
 set nocompatible
