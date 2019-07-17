@@ -1,4 +1,10 @@
-colorscheme desert
+" pathogen needs manual install
+execute pathogen#infect()
+" solarized needs manual download
+syntax enable
+set background=dark
+colorscheme solarized
+
 set encoding=utf-8
 " not compatible to vi
 set nocompatible
