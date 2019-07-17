@@ -1,6 +1,7 @@
 " pathogen needs manual install
 execute pathogen#infect()
 " solarized needs manual download
+let g:solarized_termcolors=256
 syntax enable
 set background=dark
 colorscheme solarized
