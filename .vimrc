@@ -1,11 +1,3 @@
-" pathogen needs manual install
-execute pathogen#infect()
-" solarized needs manual download
-let g:solarized_termcolors=256
-syntax enable
-set background=dark
-colorscheme solarized
-
 set encoding=utf-8
 " not compatible to vi
 set nocompatible
@@ -39,11 +31,18 @@ set secure
 
 " Plugins
 call plug#begin('~/.vim/plugged')
+Plug 'micha/vim-colors-solarized'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'godlygeek/tabular'
 call plug#end()
+
+" solarized colorscheme
+let g:solarized_termcolors=256
+syntax enable
+set background=dark
+colorscheme solarized
 
 " key maps
 map <c-f> :call JsxBeautify()<cr>
